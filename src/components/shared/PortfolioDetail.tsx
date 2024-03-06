@@ -97,10 +97,14 @@ export default function PortfolioDetail({
             <p className="my-2 text-justify">{description}</p>
             <div className="my-3 flex gap-x-4">
               <Button disabled={!product_url} size="sm">
-                <Link to={product_url}>Site</Link>
+                <Link to={product_url} target="_blank" rel="noreferrer">
+                  Site
+                </Link>
               </Button>
               <Button disabled={!repo_url} size="sm">
-                <Link to={repo_url}>Repository</Link>
+                <Link to={repo_url} target="_blank" rel="noreferrer">
+                  Repository
+                </Link>
               </Button>
             </div>
             <div>
@@ -173,10 +177,14 @@ export default function PortfolioDetail({
             <p className="my-2 text-justify">{description}</p>
             <div className="my-3 flex gap-x-4">
               <Button disabled={!product_url} size="sm">
-                <Link to={product_url}>Site</Link>
+                <Link to={product_url} target="_blank" rel="noreferrer">
+                  Site
+                </Link>
               </Button>
               <Button disabled={!repo_url} size="sm">
-                <Link to={repo_url}>Repository</Link>
+                <Link to={repo_url} target="_blank" rel="noreferrer">
+                  Repository
+                </Link>
               </Button>
             </div>
             <div>
