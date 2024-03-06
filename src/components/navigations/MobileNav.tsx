@@ -38,7 +38,7 @@ export default function MobileNav({
               {({ isActive }) => {
                 return (
                   <button
-                    className={`${isActive && "text-emerald-300"} inline-flex w-40 items-center gap-x-2 rounded-md px-4 py-2 font-medium hover:bg-border`}
+                    className={`${isActive && "text-emerald-300"} inline-flex w-40 items-center gap-x-2 rounded-md px-4 py-2 font-medium hover:bg-[#313136]`}
                   >
                     {item.name}
                   </button>
