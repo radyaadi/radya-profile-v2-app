@@ -96,16 +96,20 @@ export default function PortfolioDetail({
             </div>
             <p className="my-2 text-justify">{description}</p>
             <div className="my-3 flex gap-x-4">
-              <Button disabled={!product_url} size="sm">
-                <Link to={product_url} target="_blank" rel="noreferrer">
-                  Site
-                </Link>
-              </Button>
-              <Button disabled={!repo_url} size="sm">
-                <Link to={repo_url} target="_blank" rel="noreferrer">
-                  Repository
-                </Link>
-              </Button>
+              {product_url && (
+                <Button size="sm" asChild>
+                  <Link to={product_url} target="_blank" rel="noreferrer">
+                    Site
+                  </Link>
+                </Button>
+              )}
+              {repo_url && (
+                <Button size="sm" asChild>
+                  <Link to={repo_url} target="_blank" rel="noreferrer">
+                    Repository
+                  </Link>
+                </Button>
+              )}
             </div>
             <div>
               <p className="mb-2 font-semibold text-emerald-300 ">Tech used</p>
@@ -176,16 +180,20 @@ export default function PortfolioDetail({
             </div>
             <p className="my-2 text-justify">{description}</p>
             <div className="my-3 flex gap-x-4">
-              <Button disabled={!product_url} size="sm">
-                <Link to={product_url} target="_blank" rel="noreferrer">
-                  Site
-                </Link>
-              </Button>
-              <Button disabled={!repo_url} size="sm">
-                <Link to={repo_url} target="_blank" rel="noreferrer">
-                  Repository
-                </Link>
-              </Button>
+              {product_url && (
+                <Button size="sm" asChild>
+                  <Link to={product_url} target="_blank" rel="noreferrer">
+                    Site
+                  </Link>
+                </Button>
+              )}
+              {repo_url && (
+                <Button size="sm" asChild>
+                  <Link to={repo_url} target="_blank" rel="noreferrer">
+                    Repository
+                  </Link>
+                </Button>
+              )}
             </div>
             <div>
               <p className="mb-2 font-semibold text-emerald-300">Tech used</p>
