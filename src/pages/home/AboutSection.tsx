@@ -19,9 +19,9 @@ export default function AboutSection() {
             About Me
           </h1>
           <p className="sm:indent-10">
-            I am Fresh Graduate Informatic Student with over 1 year experience
-            in front-end web development, specializing in ReactJs and NextJs
-            Framework using Javascript and Typescript. I have a solid
+            I am Fresh Graduate Informatic Student with over two years
+            experience in front-end web development, specializing in ReactJs and
+            NextJs Framework using Javascript and Typescript. I have a solid
             understanding of modern web development technologies and practices.
             I am able to work well as individually either as a team. Please feel
             free to looking some My Portfolio i created.
