@@ -6,7 +6,7 @@ export const works = [
     year: 2024,
     duration: "On Working",
     description:
-      "Our project is an educational web platform catering to elementary school students. It offers a range of interactive learning modules and quizzes, providing a dynamic and engaging learning experience tailored to young learners.",
+      "Developed and launched an e-learning platform with Next.js and MongoDB, focusing on interactive sessions, self-paced and collaborative learning. Handled UI/UX design, API integration, and innovative educational feature implementation to enhance student engagement.",
   },
   {
     name: "ReactJs Developer",

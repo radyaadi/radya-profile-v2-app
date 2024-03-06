@@ -69,7 +69,7 @@ export default function PortfolioDetail({
               {title}
             </h1>
             <div className="my-1 flex flex-col text-gray-400">
-              <div className="flex gap-x-10">
+              <div className="mt-2 flex gap-x-10">
                 <span className="inline-flex items-center">
                   <CalendarCheck
                     size={16}
@@ -77,13 +77,13 @@ export default function PortfolioDetail({
                     absoluteStrokeWidth
                     className="mr-1"
                   />
-                  <p className=" text-xs md:text-sm">
+                  <p className=" zzztext-xs md:text-sm">
                     {formatDateString(created_at)}
                   </p>
                 </span>
                 <span className="inline-flex items-center">
                   <Layers2 size={16} strokeWidth={1.6} absoluteStrokeWidth />
-                  <p className="divide-x-[1px] divide-gray-400">
+                  <p className="flex items-center divide-x-[1px] divide-gray-400">
                     {category.map((item) => (
                       <span className="px-2 text-xs md:text-sm" key={item._id}>
                         {item.name}
@@ -149,7 +149,7 @@ export default function PortfolioDetail({
               {title}
             </h1>
             <div className="my-1 flex flex-col text-gray-400">
-              <div className="flex gap-x-10">
+              <div className="mt-2 flex gap-x-10">
                 <span className="inline-flex items-center">
                   <CalendarCheck
                     size={16}
@@ -163,7 +163,7 @@ export default function PortfolioDetail({
                 </span>
                 <span className="inline-flex items-center">
                   <Layers2 size={16} strokeWidth={1.6} absoluteStrokeWidth />
-                  <p className="divide-x-[1px] divide-gray-400">
+                  <p className="flex items-center divide-x-[1px] divide-gray-400">
                     {category.map((item) => (
                       <span className="px-2 text-xs md:text-sm" key={item._id}>
                         {item.name}
