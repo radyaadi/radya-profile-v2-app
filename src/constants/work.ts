@@ -10,17 +10,8 @@ export const works = [
       "Manage database using MongoDB and ExpressJS for data API.",
     ],
   },
-  // {
-  //   name: "ReactJs Developer",
-  //   type: "Bootcamp Training",
-  //   partner: "Dicoding Indonesia",
-  //   year: 2023,
-  //   duration: "May - October",
-  //   description:
-  //     "Learning practical and fundamental ReactJs on online bootcamp at Dicoding Indonesia. Learning about react component, react router, react context, react hook, react redux react state, etc",
-  // },
   {
-    name: "Dicoding Indonesia - Kampus Merdeka Batch 3Frontend and Backend Web Developer",
+    name: "SIB Kampus Merdeka Batch 3",
     position: "Internship | Frontend & Backend Web (Fullstack) Development",
     partner: "Dicoding Indonesia",
     duration: "2022 | August - December",
