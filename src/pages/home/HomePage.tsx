@@ -1,7 +1,7 @@
 import HomeSection from "./HomeSection";
 import AboutSection from "./AboutSection";
 import WorkSection from "./WorkSection";
-import ExploreMoreButton from "@/components/shared/ExploreMoreButton";
+import ExploreProjectButton from "@/components/shared/ExploreProjectButton";
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
       <WorkSection />
       <section className="relative flex items-center bg-[#1e1e20]">
         <div className="container mt-5 flex justify-center">
-          <ExploreMoreButton />
+          <ExploreProjectButton />
         </div>
       </section>
     </section>

@@ -13,18 +13,18 @@ export default function WorkSection() {
               <div key={index} className="relative flex flex-col">
                 <div className="ml-4">
                   <div className="absolute -left-1.5 mt-2 h-3 w-3 rounded-full bg-emerald-300"></div>
-                  <div className="inline-flex items-center gap-x-1">
-                    <h2 className="text-lg font-medium  text-emerald-300">
-                      {work.name}
-                    </h2>
-                    <p className="text-gray-400">•</p>
-                    <p className="text-sm text-gray-400">{work.type}</p>
-                  </div>
-                  <p className="mb-1 text-sm">{work.partner}</p>
-                  <p className="my-1 text-sm">
-                    {work.year} | {work.duration}
-                  </p>
-                  <p>{work.description}</p>
+                  <h2 className="text-lg font-medium text-emerald-300">
+                    {work.name}
+                  </h2>
+                  <p className="text-sm text-gray-400">{work.position}</p>
+                  <p className="text-sm">{work.partner}</p>
+                  <p className="my-2 text-sm">{work.duration}</p>
+                  {work.description.map((item) => (
+                    <div className="flex gap-x-2">
+                      <p>•</p>
+                      <p>{item}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}

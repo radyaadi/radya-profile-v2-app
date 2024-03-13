@@ -27,6 +27,8 @@ export default function PortfolioPage() {
     navigate(`/portfolio?${category}`, { replace: true });
   };
 
+  console.log(portfolios.data);
+
   const filteredPortfolio: PortfolioProps[] | undefined =
     portfolios.data?.filter((portfolio: PortfolioProps) => {
       return (
