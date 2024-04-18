@@ -1,9 +1,18 @@
 export const works = [
   {
-    name: "Education Web Project",
-    position: "Freelance | Web Development (Fullstack)",
-    partner: "Client (Private)",
+    name: "Web Developer",
+    position: "Contract",
+    partner: "PT Indo Legal Juara",
     duration: "2024 | On Working",
+    description: [
+      "Contracting to develop a web-based Human Resource Management (HRM) application for the company, with the goal of streamlining HR processes and employee management.",
+    ],
+  },
+  {
+    name: "Frontend Developer",
+    position: "Freelance",
+    partner: "Client (Private)",
+    duration: "2024 | February",
     description: [
       "Design user friendly web app for student learning platforms (LMS like) using TailwindCSS and Shadcn component library.",
       "Collaborate with tim partner to develop web app using NextJS and Typescript.",
