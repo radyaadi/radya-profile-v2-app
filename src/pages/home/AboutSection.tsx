@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ServiceList from "../../components/shared/TechList";
 
 export default function AboutSection() {
@@ -19,12 +20,21 @@ export default function AboutSection() {
             About Me
           </h1>
           <p className="sm:indent-10">
-            I am Fresh Graduate Informatic Student with over two years
-            experience in front-end web development, specializing in ReactJs and
-            NextJs Framework using Javascript and Typescript. I have a solid
-            understanding of modern web development technologies and practices.
-            I am able to work well as individually either as a team. Please feel
-            free to looking some My Portfolio i created.
+            Hello! I'm a 23-year-old Fresh Graduate with a Bachelor's of
+            Informatics Degree (Computer Science), with 2 years of experience in
+            Frontend Web Development using Javascript. I'm used to developing
+            some web apps using the ReactJs or NextJs framework, as well as
+            Tailwind CSS for styling and managing the layout. Recently, I also
+            managed a project to build a web apps using the VueJS framework,
+            Typescript, and also develop an RESTFUL API for data as a Fullstack.
+            I have a strong understanding of modern web development technology
+            and always follow the best practices guidelines as a developer, also
+            accustomed to working either individually or as part of a team.
+            Please feel free to looking some{" "}
+            <Link to="/portfolio" className="font-semibold text-emerald-300">
+              My Portfolio Project
+            </Link>{" "}
+            i created.
           </p>
           <ServiceList />
         </div>
