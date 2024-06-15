@@ -1,15 +1,16 @@
 export const works = [
   {
-    name: "Web Developer",
+    name: "Frontend Web Developer",
     position: "Contract",
     partner: "PT Indo Legal Juara",
-    duration: "2024 | On Working",
+    duration: "2024 | March - May",
     description: [
-      "Contracting to develop a web-based Human Resource Management (HRM) application for the company, with the goal of streamlining HR processes and employee management.",
+      "Hired to assist the frontend team in managing the appearance of a web-based Human Resource Management (HRM) application for the company.",
+      "Ensuring that the application's interface aligns with the pre-designed layouts and features.",
     ],
   },
   {
-    name: "Frontend Developer",
+    name: "Frontend Web Developer",
     position: "Freelance",
     partner: "Client (Private)",
     duration: "2024 | February",
