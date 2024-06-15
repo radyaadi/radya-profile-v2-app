@@ -20,21 +20,18 @@ export default function AboutSection() {
             About Me
           </h1>
           <p className="sm:indent-10">
-            Hello! I'm a 23-year-old Fresh Graduate with a Bachelor's of
-            Informatics Degree (Computer Science), with 2 years of experience in
-            Frontend Web Development using Javascript. I'm used to developing
-            some web apps using the ReactJs or NextJs framework, as well as
-            Tailwind CSS for styling and managing the layout. Recently, I also
-            managed a project to build a web apps using the VueJS framework,
-            Typescript, and also develop an RESTFUL API for data as a Fullstack.
-            I have a strong understanding of modern web development technology
-            and always follow the best practices guidelines as a developer, also
-            accustomed to working either individually or as part of a team.
-            Please feel free to looking some{" "}
+            Hello! I'm a Fresh Informatic student, with experience in Frontend
+            Web Development using Javascript Programming Language. I'm used to
+            developing some web apps using ReactJs libray and NextJS framework,
+            as well as Tailwind CSS for styling and managing the layout. I have
+            strong understanding of modern web development technology and always
+            follow the best practices guidelines as a developer, also accustomed
+            to working either individually or as part of a team. Please feel
+            free to looking some{" "}
             <Link to="/portfolio" className="font-semibold text-emerald-300">
-              My Portfolio Project
+              My Projects
             </Link>{" "}
-            i created.
+            i had created.
           </p>
           <ServiceList />
         </div>

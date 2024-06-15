@@ -22,7 +22,7 @@ export default function HomeSection() {
             </p>
             <p>
               Fresh Graduate Informatic Student with experience in front-end web
-              development, specializing in ReactJs and NextJs Framework.
+              development, specializing in Javascript Programming Language.
             </p>
             <div className="mt-5 flex gap-x-5 sm:gap-x-7">
               {socialMedia.map((item) => (
