@@ -1,7 +1,7 @@
 export const works = [
   {
     name: "Frontend Web Developer",
-    position: "Contract",
+    position: "Freelance",
     partner: "PT Indo Legal Juara",
     duration: "2024 | March - May",
     description: [
