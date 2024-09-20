@@ -20,16 +20,16 @@ export default function AboutSection() {
             About Me
           </h1>
           <p className="sm:indent-10">
-            Hello! I'm a Fresh Graduate with a Bachelor of Informatics Degree
-            (Computer Science) and i have experience in frontend web development
-            using Javascript programming language. I have developed several web
-            applications using the ReactJs library and the NextJs framework, as
-            well as TailwindCSS for styling and layout management. Additionally,
-            I have managed backend development using NodeJS, specifically with
-            the ExpressJS framework. I have strong understanding of modern web
-            development technology and always follow the best practices
-            guidelines as a developer, also accustomed to working either
-            individually or as part of a team. Please feel free to looking some{" "}
+            I am 23-years-old Fresh Graduate with a Bachelor's degree in
+            Informatics (Computer Science), hands-on experience as a Web
+            Developer Freelancer. I have some experiences and skills in creating
+            dynamic and responsive web interfaces using JavaScript programming
+            languange, leveraging modern libraries and frameworks such as
+            ReactJS, NodeJS, and TailwindCSS. Additionally, I also have good
+            understanding in backend development with ExpressJS, database
+            management using SQL programming languange, and foundational
+            knowledge of Object-Oriented Programming (OOP) concepts. . Please
+            feel free to looking some{" "}
             <Link to="/portfolio" className="font-semibold text-emerald-300">
               My Projects
             </Link>{" "}

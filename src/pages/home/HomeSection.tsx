@@ -18,11 +18,12 @@ export default function HomeSection() {
               Radya Adi Anggara
             </h1>
             <p className="font-semibold text-emerald-300">
-              Fresh Graduate Informatic Student | Front End Web Developer
+              Fresh Graduate Informatic Student | Junior Web Developer
             </p>
             <p>
-              Fresh Graduate Informatic Student with experience in front-end web
-              development, specializing in Javascript Programming Language.
+              Fresh Graduate Informatic Student with hands-on experience as a
+              Web Developer Freelancer, specializing in Javascript Programming
+              Language.
             </p>
             <div className="mt-5 flex gap-x-5 sm:gap-x-7">
               {socialMedia.map((item) => (
